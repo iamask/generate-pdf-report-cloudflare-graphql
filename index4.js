@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 import { PDFDocument, rgb, StandardFonts } from 'pdf-lib';
 import fs from 'fs';
 
-const CLOUDFLARE_BEARER_TOKEN = 'Wqnvu1IYl3EIUyw5ir6vN-TfsPo44tzEPSseH9Zv';
+const CLOUDFLARE_BEARER_TOKEN = 'Wqnvu1IYPSseH9Zv';
 
 async function fetchCloudflareData() {
   const endpoint = 'https://api.cloudflare.com/client/v4/graphql/';
