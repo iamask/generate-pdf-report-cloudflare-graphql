@@ -2,8 +2,8 @@ import fetch from 'node-fetch';
 import { PDFDocument, rgb, StandardFonts } from 'pdf-lib';
 import fs from 'fs';
 
-const CLOUDFLARE_BEARER_TOKEN = 'Wqnvu1IYl3EIUyw5ir6vN-TfsPo44tzEPSseH9Zv';
-const ZONE_TAG = 'b58cebb2d5fd636f67c10aaf9371b20b'; // Replace with your Cloudflare zone tag
+const CLOUDFLARE_BEARER_TOKEN = 'Wqnvu1IYl3EIUyw5itzEPSseH9Zv';
+const ZONE_TAG = 'b58cebb2d5fd6aaf9371b20b'; // Replace with your Cloudflare zone tag
 
 const fontSize = 10;
 
