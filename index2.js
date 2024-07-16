@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 import { PDFDocument, rgb, StandardFonts } from 'pdf-lib';
 import fs from 'fs';
 
-const CLOUDFLARE_BEARER_TOKEN = 'Wqnvu1IYl3EIUyw5ir6vN-TfsPo44tzEPSseH9Zv';
+const CLOUDFLARE_BEARER_TOKEN = 'Wqnvu1IYEPSseH9Zv';
 
 async function fetchCloudflareData() {
   const endpoint = 'https://api.cloudflare.com/client/v4/graphql/';
@@ -28,7 +28,7 @@ async function fetchCloudflareData() {
   `;
 
   const variables = {
-    zoneTag: "b58cebb2d5fd636f67c10aaf9371b20b", // Replace with your Cloudflare Zone ID
+    zoneTag: "b58cebb2d5fd10aaf9371b20b", // Replace with your Cloudflare Zone ID
     filter: {
       datetime_geq: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString(), // Last 7 days from now
       datetime_leq: new Date().toISOString()
