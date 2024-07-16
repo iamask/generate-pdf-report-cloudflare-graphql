@@ -3,9 +3,9 @@ import { PDFDocument, rgb } from 'pdf-lib';
 import fetch from 'node-fetch';
 
 // Hardcoded values (not recommended for production)
-const GRAPH_API_TOKEN = 'Wqnvu1IYl3EIUyw5ir6vN-TfsPo44tzEPSseH9Zv';
-const WEBHOOK_URL = 'https://chat.googleapis.com/v1/spaces/AAAAaWQHvIM/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=gmcYczs8GQns_HUKnOJIkld_fOlMDIjLLki3TXB6lMw';
-const ZONE_ID = '174f936387e2cf4c433752dc46ba6bb1';
+const GRAPH_API_TOKEN = 'Wqnvu1IYl3EIUEPSseH9Zv';
+const WEBHOOK_URL = 'https://chat.googleapis.com/v1/spaces/AAAAaWHvIM/messages?key=AIzaSyvySjMm-WEfRq3CPzqKqqsHI&token=gMDIjLLki3TXB6lMw';
+const ZONE_ID = '174f936387e2cf6ba6bb1';
 
 
 // Hardcoded values (not recommended for production)
