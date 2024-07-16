@@ -1,0 +1,17 @@
+{
+  "name": "generate-report",
+  "version": "1.0.0",
+  "main": "worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "pdfkit": "^0.15.0"
+  }
+}
