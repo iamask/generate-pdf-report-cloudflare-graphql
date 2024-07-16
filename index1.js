@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-const CLOUDFLARE_BEARER_TOKEN = 'Wqnvu1IYl3EIUyw5ir6vN-TfsPo44tzEPSseH9Zv';
+const CLOUDFLARE_BEARER_TOKEN = 'Wqnvu1IYltzEPSseH9Zv';
 
 async function fetchCloudflareData() {
   const endpoint = 'https://api.cloudflare.com/client/v4/graphql/';
